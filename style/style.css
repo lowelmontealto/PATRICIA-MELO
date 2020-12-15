@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(https://www.wallpapermaiden.com/wallpaper/41524/download/1920x1080/macbook-keyboard-notebook-darkness-technology.jpeg);
+}
+
+/* Style the header */
+.header {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.button1 {
+  color: black;
+  font-size: 30px; 
+}
+.button1:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  -webkit-transition: all 0.3s ease;  
+          transition: all 0.3s ease;
+}
+
+
+.container{
+  max-width: auto;
+  overflow: hidden;
+}
+.image{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 900px;
+}
+.para {
+  padding: 50px;
+  font-family: Arial;
+  color: red;
+  font-size: 30px;
+  float: left;
+  margin-top: 1px;
+  margin-right:500px;
+}
